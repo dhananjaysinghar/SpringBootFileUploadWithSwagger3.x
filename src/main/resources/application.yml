@@ -1,0 +1,14 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 500KB
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+app:
+  file:
+    upload-location: /home/dhananjaya/Desktop/files/
+        
+        
+        
